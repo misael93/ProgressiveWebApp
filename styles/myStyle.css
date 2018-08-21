@@ -1,0 +1,86 @@
+html, body {
+    min-width: 340px;
+    font-family: 'Calibri';
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    top: 35px;
+    padding: 10px;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.scoreAwayTeam,
+.scoreHomeTeam {
+    margin-left: auto;
+}
+
+.border-b {
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.p-1 {
+    padding: 2px;
+}
+
+.p-2 {
+    padding: 4px;
+}
+
+.ml-1 {
+    margin-left: 5px;
+}
+
+.float-right {
+    float: right;
+}
+
+header {
+    background-color:#3f1052;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+.card {
+    margin: 15px 0;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.title {
+    text-align: center;
+}
+
+.update {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px
+}
+
+select {
+    width: 80px;
+}
+
+.header-message {
+    color: white;
+    font-weight: 400;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
